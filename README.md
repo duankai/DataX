@@ -2,17 +2,22 @@
 
 
 # 安装
-1. git clone git@github.com:duankai/DataX.git
+## 1.clone 
+git clone git@github.com:duankai/DataX.git
 
-2. 打包
+## 2. 打包
 
 $ cd  {DataX_source_code_home}
+
 $ mvn -U clean package assembly:assembly -Dmaven.test.skip=true
 
-3. 
+## 3 赋权
 ls ./target/datax/datax/
+
 cd  {DataX_source_code_home}
+
 chmod 777 $DATAX_HOME/bin/datax.py
+
 
 # DataX
 
