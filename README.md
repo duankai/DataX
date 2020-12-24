@@ -1,6 +1,18 @@
 ![Datax-logo](https://github.com/alibaba/DataX/blob/master/images/DataX-logo.jpg)
 
 
+# 安装
+1. git clone git@github.com:duankai/DataX.git
+
+2. 打包
+
+$ cd  {DataX_source_code_home}
+$ mvn -U clean package assembly:assembly -Dmaven.test.skip=true
+
+3. 
+ls ./target/datax/datax/
+cd  {DataX_source_code_home}
+chmod 777 $DATAX_HOME/bin/datax.py
 
 # DataX
 
